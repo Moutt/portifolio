@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background: #ECE5C7;
+    height: 600px;
+    width: 100%;
+    text-align: center;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+#modo{
+    border-radius: 300px;
+    position: fixed;
+    top: 30px;
+    left: 30px;
+    height: 50px;
+    cursor: pointer;
+    border: solid black 2px;
+    height: 30px;
+}
+.imgmodo{
+    height: 30px;
+    border-radius: 30px;
+    margin: auto;
+}
+#sol{
+    margin-left: 10px;
+}
+#bemvindo{
+    margin: auto;
+    color: white;
+    color: #CDC2AE;
+    padding-top: 150px;
+}
+#port{
+    margin: auto;
+    color: white;
+    font-size: 6em;
+    color: #CDC2AE;
+}
+#port:hover{
+    text-shadow: 5px 5px 5px white;
+    transition: 0.5s;
+    cursor: default;
+    font-size: 8em;
+}
+#ir{
+    margin: auto;
+    background: rgb(41, 41, 41);
+    padding: 20px;
+    border-radius: 30px;
+    width: 200px;
+    text-align: center;
+    position: fixed;
+    right: 30px;
+    top: 30px;
+}
+.link{
+    color: white;
+    text-decoration: none;
+    transition: 1s;
+}
+.link:hover{
+    color: gray;
+    transition: 0.5s;
+    font-size: 18px;
+}
+#caixasobre{
+    margin: auto;
+    width: 70%;
+    height: 350px;
+    background-color: #354259;
+    margin-top: 30px;
+    border-radius: 30px;
+    border: 3px solid black;
+    visibility: hidden;
+}
+
+#sobre{
+    padding-top: 90px;
+    padding-left: 40px;
+    color: white;
+    font-size: 40px;
+}
+#txtsobre{
+    color: white;
+    width: 300px;
+    padding-left: 40px;
+    font-size: 20px;
+}
+#ftminha{
+    float: right;
+    margin-top: 50px;
+    border-radius: 50px;
+    margin-right: 10%;
+    border: inset #546d9c;
+}
+#projetos{
+    text-align: center;
+    height: 300px;
+    margin-top: 30px;
+}
+.titulos{
+    text-align: center;
+    margin-top: 30px;
+    border: solid 3px black;
+    border-radius: 30px;
+    width: 300px;
+    margin: 30px auto;
+}
+.ftsites{
+    height: 200px;
+    margin: auto 10px;
+    border-radius: 30px;
+    visibility: hidden;
+}
+.ftsites:hover{
+    height: 210px;
+    transition: 1s;
+}
+#habilidade{
+    margin: auto;
+    width: 70%;
+    height: 350px;
+    background-color: #354259;
+    margin-top: 30px;
+    border-radius: 30px;
+    border: 3px solid black;
+}
+.htmlcaixa{
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+.linguagens{
+    width: 70px;
+    margin: 20px;
+    margin: auto;
+    margin-top: 50px;
+}
+.linguagens:hover{
+    width: 80px;
+    transition: 1s;
+}
